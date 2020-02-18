@@ -1,18 +1,47 @@
-	body{
-	background-image:url("back.jpg");
-background-repeat:repeat;	
-background-attachment:fixed;
+body{
+	background-image:url("index.png");
+	background-repeat:repeat;	
+	background-attachment:fixed;
 }
 
-	h1
-	{
+h1
+{
 	color:maroon;
 	margin-left:40px;
-	}
+	text-align:center;
+text-shadow:4px 4px 8px crimson;
+}
 
-	p
-	{
-	color:blue;
-	}
+p
+{
+	font-style:italic;
+	font-size:large;
+}
+p.Normal{
+color:blue;
+font-family:serif;
+direction:rtl;
+word-spacing:5px;
+letter-spacing:0.5px;
+text-transform:capitalize;
 
-
+}
+p.special{
+color:maroon;
+font-family:FreeMono;
+font-weight:bolder;
+direction:ltr;
+text-indent:3cm;
+text-decoration:overline;
+text-transform:uppercase;
+}
+p.abnormal{
+text-align:center;
+text-decoration:line-through;
+text-shadow:2px 2px 8px blue;
+}
+img:hover{
+border:5px solid red;
+height: 500px;
+opacity:0.4;filter:alpha(opacity=40);
+}
