@@ -17,16 +17,19 @@ p
 	font-style:italic;
 	font-size:large;
 }
-p.Normal{
+#Normal{
 color:blue;
 font-family:serif;
 direction:rtl;
 word-spacing:5px;
 letter-spacing:0.5px;
 text-transform:capitalize;
+border:5px ridge black;
+padding: 25px 50px 25px 25px;
 
 }
-p.special{
+.special{
+margin: 25px 50px 75px 100px;
 color:maroon;
 font-family:FreeMono;
 font-weight:bolder;
@@ -35,13 +38,104 @@ text-indent:3cm;
 text-decoration:overline;
 text-transform:uppercase;
 }
-p.abnormal{
+.abnormal{
+margin:auto;
 text-align:center;
 text-decoration:line-through;
 text-shadow:2px 2px 8px blue;
 }
+img{
+border:5px ridge red;
+}
 img:hover{
-border:5px solid red;
+border:5px double blue;                                   
 height: 500px;
 opacity:0.4;filter:alpha(opacity=40);
+border-width: thick;
 }
+.abstract{
+border-style:solid;
+border-width:2px 10px 5px 20px;
+border-color: red green blue yellow;
+border-top-style: solid;
+border-right-style: dotted;
+border-bottom-style: solid;
+border-left-style: solid;
+}
+
+.name{
+border:5px dashed green;
+padding: 5px;
+margin:2cm;
+text-align:center;
+}
+li{
+display:inline}
+
+span.a{
+display:inline;
+width:100px;
+height:400px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;}
+
+span.b{
+display:inline-block;
+width:100px;
+height:200px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;}
+
+span.c{
+display:block;
+width:100px;
+height:400px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;}
+
+a{
+display:inline;
+font-size:30px;
+text-decoration:none;
+}
+.one{
+text-decoration:underline;
+color:black;
+}
+a.one:visited{color:yellow}
+.two{
+color:green;}
+
+.two{
+color: green;}
+a.two:active{
+color: blue;}
+
+.three{
+border:2px solid green;
+color:blue;
+}
+a.three:hover{
+border:2px solid green;
+color:pink;
+}
+
+.four{
+background-color:maroon;
+color:white;
+}
+.pseudo::first-line{
+color:red;
+}
+.pseudo::first-letter{
+color:blue;
+}
+::selection{
+color:white;
+background-color:red;
+}
+#grad{background-image:linear-gradient(orange,white,green);}
+

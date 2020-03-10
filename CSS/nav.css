@@ -1,0 +1,34 @@
+.shikha{
+background-color:maroon;
+border:1px solid blue;
+border-width:10px;
+height:190px;
+width:700px;
+padding-left:100px;
+padding-top:90px;
+}
+a{
+font-size:30px;
+text-decoration:none;
+color:white;
+padding: 30px;
+}
+.shikha1
+{
+background-image:url("back.jpg");
+height:200px;
+width:700px;
+padding-left:140px;
+padding-top:95px;
+}
+.shikha2
+{
+background-color:white;
+height:70px;
+width:500px;
+opacity:0.4;
+border:1px solid black;
+padding:10px;
+}
+p{color:black;}
+
