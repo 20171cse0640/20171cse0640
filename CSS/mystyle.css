@@ -128,14 +128,66 @@ background-color:maroon;
 color:white;
 }
 .pseudo::first-line{
-color:red;
+color:blue;
 }
 .pseudo::first-letter{
-color:blue;
+color:red;
 }
 ::selection{
 color:white;
 background-color:red;
 }
 #grad{background-image:linear-gradient(orange,white,green);}
+.Traransitions{
+width:100%;
+height:150px;
+background-color:red;
+transition: width 2s,height 4s;
+}
+
+.Traransitions:hover{
+width:300px;
+height:400px;
+}
+
+.Traransitions1{
+width:100%;
+height:150px;
+background-color:pink;
+transition: width 2s,transform 4s;
+border-radius: 25px;
+}
+
+.Traransitions1:hover{
+width:300px;
+height:400px;
+transform: rotate(180deg);
+
+}
+.clock{
+width:50px;
+height:50px;
+transition:height 2s, width 2s,transform 60s;
+border-radius: 50px;
+}
+.clock:hover{
+width:50px;
+height:50px;
+transform: rotate(360deg);
+border-radius: 300px;
+}
+
+.animation{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {background-color: pink;}
+  to {background-color: yellow;}
+}
 
